@@ -17,6 +17,14 @@ func main() {
 		adventoftasks.Task_2()
 	case "2.1":
 		adventoftasks.Task_2_ext()
+	case "3":
+		adventoftasks.TestRegValidate()
+	case "4":
+		adventoftasks.CeresSearch()
+	case "5":
+		adventoftasks.PrintQueue("basic")
+	case "5.1":
+		adventoftasks.PrintQueue("advanced")
 	default:
 	}
 }
